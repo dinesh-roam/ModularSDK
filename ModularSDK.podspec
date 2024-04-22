@@ -12,12 +12,12 @@ Pod::Spec.new do |spec|
 
   # ModularCoreModule
   spec.subspec 'ModularCoreModule' do |core|
-    core.vendored_frameworks = 'ModularCoreFramework.xcframework'
+    core.vendored_frameworks = 'ModularCoreModule.xcframework'
   end
   
   # FeatureModule
   spec.subspec 'FeatureModule' do |feature|
-    feature.vendored_frameworks = 'FeatureFramework.xcframework'
+    feature.vendored_frameworks = 'FeatureModule.xcframework'
   end
   
   spec.requires_arc = true
