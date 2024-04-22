@@ -1,0 +1,11 @@
+framework module FeatureModule {
+  umbrella header "FeatureModule.h"
+
+  export *
+  module * { export * }
+}
+
+module FeatureModule.Swift {
+  header "FeatureModule-Swift.h"
+  requires objc
+}

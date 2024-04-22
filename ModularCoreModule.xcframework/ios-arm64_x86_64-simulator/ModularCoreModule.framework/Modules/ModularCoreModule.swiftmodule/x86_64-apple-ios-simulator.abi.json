@@ -1,0 +1,77 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ModularCoreModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreManager",
+        "printedName": "CoreManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreManager",
+                "printedName": "ModularCoreModule.CoreManager",
+                "usr": "s:17ModularCoreModule0B7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ModularCoreModule0B7ManagerCACycfc",
+            "mangledName": "$s17ModularCoreModule0B7ManagerCACycfc",
+            "moduleName": "ModularCoreModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchImportantData",
+            "printedName": "fetchImportantData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ModularCoreModule0B7ManagerC18fetchImportantDataSSyF",
+            "mangledName": "$s17ModularCoreModule0B7ManagerC18fetchImportantDataSSyF",
+            "moduleName": "ModularCoreModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ModularCoreModule0B7ManagerC",
+        "mangledName": "$s17ModularCoreModule0B7ManagerC",
+        "moduleName": "ModularCoreModule",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

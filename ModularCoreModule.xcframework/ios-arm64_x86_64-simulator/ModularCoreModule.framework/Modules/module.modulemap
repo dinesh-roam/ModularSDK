@@ -1,0 +1,4 @@
+framework module ModularCoreModule {
+  header "ModularCoreModule-Swift.h"
+  requires objc
+}

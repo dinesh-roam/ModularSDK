@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeatureModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ModularCoreModule",
+        "printedName": "ModularCoreModule",
+        "declKind": "Import",
+        "moduleName": "FeatureModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureManager",
+        "printedName": "FeatureManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureManager",
+                "printedName": "FeatureModule.FeatureManager",
+                "usr": "s:13FeatureModule0A7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13FeatureModule0A7ManagerCACycfc",
+            "mangledName": "$s13FeatureModule0A7ManagerCACycfc",
+            "moduleName": "FeatureModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "useCoreData",
+            "printedName": "useCoreData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FeatureModule0A7ManagerC11useCoreDataSSyF",
+            "mangledName": "$s13FeatureModule0A7ManagerC11useCoreDataSSyF",
+            "moduleName": "FeatureModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13FeatureModule0A7ManagerC",
+        "mangledName": "$s13FeatureModule0A7ManagerC",
+        "moduleName": "FeatureModule",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
